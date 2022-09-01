@@ -1,0 +1,13 @@
+.btn{
+  padding:0.5rem;
+  background-color:rgb(136, 2, 2);
+  color:white;
+  border:none;
+  border-radius:0.2rem;
+  cursor: pointer;
+  font-family: inherit;
+  &:active{
+    transition: all 0.2s ease-in-out;
+    transform: translateY(0.1rem);
+  }
+}
